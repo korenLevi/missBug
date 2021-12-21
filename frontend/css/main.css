@@ -1,0 +1,158 @@
+@import './base.css';
+@import './helpers.css';
+@import './fonts.css';
+@import './filter.css';
+
+
+
+.progress-bar {
+    width: 30%;
+}
+
+.bug-header {
+    font-size: 20px;
+}
+.menu-list {
+    margin-left: 10px;
+}
+
+.bug-title {
+    font-size: 40px;
+}
+
+
+.bug-app {
+    margin-top: 20px;
+    position: relative;
+}
+.gothic {
+    font-family: 'Gothic';
+}
+
+.bug-list-btns {
+    width: 20%;
+}
+.container {
+    max-width: 1400px;
+    /* margin: 0 auto; */
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+.small-img {
+    height: 30px;
+    width: 30px;
+}
+
+header{
+    /* background-color: lightblue; */
+    /* color: pink; */
+    text-align: center;
+ }
+
+ /* .router-link-active {
+     color:; 
+ } */
+ 
+
+ .paper {
+    /* width:90vw; */
+    height:100vh;
+    background: linear-gradient(to bottom,white 35px,#e6ebed 1px);
+    margin:20px auto;
+    background-size: 100% 36px;
+    position:relative;
+    /* padding-top:10px; */
+    padding-left:8px;
+    padding-right:20px;
+    overflow:hidden;
+    border-radius:5px;
+    box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  }
+/*   
+  .paper:before {
+      content:'';
+      display:block;
+      position:absolute;
+      z-index:1;
+      top:0;
+      left:30px;
+      height:100%;
+      width:8px;
+      border-left: 1px solid #f2e3df;
+      border-right: 1px solid #f2e3df;
+    } */
+
+.bugs {
+    /* margin-top:67px; */
+    font-size:20px;
+    line-height:30px;
+    margin-left: 40px;
+}
+
+.bugs input[type="checkbox"] {
+    display:none;
+}
+    
+.bugs input[type="checkbox"]  + label span{
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 20px 0 0;
+    vertical-align:middle;
+    background:url(../assets/img/check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+
+.user-btns button {
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+
+.action-log {
+    padding: 10px;
+    width: 50%;
+    float: right;
+    border: 1px solid #00d1b2
+}
+.bug-header {
+    padding-top: 20px;
+}
+
+.bug-header div {
+    width: 33.333%;
+}
+.bugs input[type="checkbox"]:checked + label span {
+    background:url(../assets/img/check_radio_sheet.png) -19px top no-repeat;
+}  
+
+.bugs input{
+    border-color: transparent;
+    font-family: 'MontRegular', sans-serif;
+    font-size:20px;
+    line-height:30px;
+    background-color:transparent;
+}
+
+.bugs input:focus{
+    outline: none;
+}
+
+.bugs input:disabled {
+    background-color: transparent;
+}
+
+.delete-btn {
+    font-size: 20px;
+}
+.delete-btn:hover {
+    color: #68d3b3;
+}
+
+.compose-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

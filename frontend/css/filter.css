@@ -1,0 +1,33 @@
+.filter {
+    margin-top: 20px;
+}
+
+.filter input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+  }
+  
+  .filter label {
+    color: #00d1b2; 
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 20px;
+  }
+  
+  .filter input[type=radio]:checked + label{
+    color: black; 
+    background: #00d1b2;
+  }
+  
+  .filter label + .filter input[type=radio] + .filter label {
+    border-left: solid 3px #332f35;
+  }
+  .filter .radio-group {
+    border: solid 3px #00d1b2;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
